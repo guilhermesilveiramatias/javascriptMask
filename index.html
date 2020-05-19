@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Mask Sample.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+</head>
+<body>
+    
+    <div class="container">
+        <main role="main" class="pb-3">            
+
+            <h1>Exemplo de utilização</h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <form method="post" action="#">
+                        <div class="row">
+                            <div class="border-bottom mt-4 col-12">
+                                <h5>Campos comuns (pt-br)</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="CPF" >CPF</label>
+                                    <input class="form-control" id="CPF" name="CPF" cpf>                     
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="DDD">DDD</label>
+                                    <input type="text" class="form-control" ddd>                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="Telefone">Telefone</label>
+                                    <input type="text" class="form-control" id="Telefone" name="Telefone" value="" celular >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="CEP">CEP</label>
+                                    <input mask_cep type="text" class="form-control" cep>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="Numero">Número</label>
+                                    <input type="text" class="form-control" id="Numero" name="Numero" value="" numero >
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>      
+    
+    <script src= "js/jsMask-pt-br.js"></script>
+    
+</body>
+
+
+</html>
