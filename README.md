@@ -10,7 +10,8 @@ Atualmente atendemos os seguintes formatos (Pt-br):
   * Telefone 
   * Celular (com e sem o nono dígito - reconhecido e incluído automaticamente)
   * Número 
-  
+ ![Exemplo de código](docs/PaginaExemplo.gif)  
+
  ## Por que utilizar?
   * Um único script, pronto e testado.
   * Com a participação da comunidade, teremos cada vez mais formatos e melhorias.
